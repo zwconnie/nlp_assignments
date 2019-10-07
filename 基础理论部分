@@ -1,0 +1,48 @@
+0. Can you come up out 3 sceneraies which use AI methods?
+Ans: Autonomous vehicles, speech recognition, automated trading, and other sceneraies where computers act or think humanlike or rationally based on mathematical models and programming.
+
+1. How do we use Github; Why do we use Jupyter and Pycharm;
+Ans: We use Github to share codes and materials, manage and update the progress of one's own project, make contributions to others' projects and keep up with the latest trends.
+Jupyter is a better tool for demonstrating as it shows codes and running results simultaneously and it is quick to do notes, while for sophisticated projects, we may need to switch to Pycharm for more user-friendly categorizing, debugging, variables identifying etc.
+
+2. What's the Probability Model?
+Ans: Probability Model is a way to quantify the real world by using mathematical models.
+Probability model answers the likelihood an event may happen and is generally used to describe relationships, estimate distributions and do predictions for random variables.
+
+3. Can you came up with some sceneraies at which we could use Probability Model?
+Ans: For many problems with uncertainties, we could use probability model to dig out its statistically reliable distribution.
+For example, sometimes when we do decisions in daily life, we actually build up a probability model, although it may not be quite accurate, in our mind based on past experiences, and then use the model to integrate new information from different sources to find a plan with highest expected utility.
+Lottery and insurance policy design also require the use of probability model.
+In AI area, for problems like speech recognition, inputting method, machine translation, automatic error correction etc., we could use probalbility model to find out an output with largest probability to be the solution.
+
+4. Why do we use probability and what's the difficult points for programming based on parsing and pattern match?
+Ans: Language model based on parsing and pattern match have such problems as:
+（1） it is hard to exhaust all the language rules even for a single language, not to say all the languages in the world;
+（2） even though we could summarize the main rules, it only means we may be able to recognize the sentences that strictly follow the rules, however with the development of internet and social network, the proportion of unstandard sentences has rapidly increased;
+（3） syntax tree based on parsing and pattern match requires great amount of computation and back-and-forths, which is not economic.
+For most of the time, we do not need to analyze a sentence deeply into every tiny pieces, some rough analysis that could grab the main components is enough.
+Based on probability model, we find sentences with largest probability of appearance, which avoids the above problems. And finding sentences that are most frequently being used is also more meaningful than finding sentences strictly following existing patterns. 
+Especially, probability model benefits from the explosive growth of language materials, turns out to be more dynamic and reacts more quickly to the latest language changes.
+From the perspective of computer realization, probability model removes the logics that computers cannot understand, and based on classical mathematical models, it is easier for computers to do the training, and model establishing.
+
+5. What's the Language Model;
+Ans: The probability-based language model measures the probability of a sentence, which is used to judge whether a sentence is reasonable based on how frequently the components/the combination of the components of the sentence show up.
+
+6. Can you came up with some sceneraies at which we could use Language Model?
+Ans: speech recoginition, machine translation, automatic error correction, inputting method etc.
+
+7. What's the 1-gram language model;
+Ans: 1-gram language model does not take the impact of context into consideration. The probability of the sentence is determined by the probability of the single words independently.
+
+8. What's the disadvantages and advantages of 1-gram language model;
+Ans:
+Advantage: 1-gram model requires less data to train the model than 2-gram model and other n-gram models. The model is easier to be built up and takes up less space and memory to use.
+Especially when we need to build a customized language model, the data from individual user may not be enough to make n-gram model statistically reliable, 1-gram model plus some other supporting methods may be the best way to balance the lack of data and customization needs.
+Disadvantage: Compared with n-gram model, 1-gram model uses the least information and hence, is the least accurate.
+
+9. What't the 2-gram models;
+Ans: 2-gram model takes part of the context information into consideration, i.e. the adjcent 2 words are related.
+It turns the sentence into a chain that the probability of the sentence is the multiplication of the conditional probability of the word given its previous word.
+
+
+
